@@ -5,9 +5,6 @@
 	export let widgetValue;
 	$: widgetValue = value;
 
-	// https://github.com/gyurielf/svelte-tel-input
-	// add format like  https://svelte-tel-input.vercel.app/
-
 	import TelInput, { normalizedCountries } from 'svelte-tel-input';
 	// Any Country Code Alpha-2 (ISO 3166)
 	let selectedCountry = 'DE';

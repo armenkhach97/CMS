@@ -388,16 +388,6 @@ dark:to-surface-500 text-center h-full relative border-r !px-2 border-surface-30
 						</div>
 					</form>
 				</div>
-
-				<!-- CMS Version -->
-				<div class="flex justify-center p-1 pb-2">
-					<!-- <a href="https://github.com/Celestialme/SimpleCMS" target="blank"> -->
-					<a href="https://github.com/Rar9/SvelteCMS/" target="blank">
-						<span class="badge variant-filled-primary rounded-xl text-black"
-							>{$LL.SBL_Version()}: {pkg.version}</span
-						>
-					</a>
-				</div>
 			{/if}
 		</div>
 	</svelte:fragment>
